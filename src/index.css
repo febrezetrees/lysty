@@ -15,8 +15,8 @@ body {
   font-family: 'Questrial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  background-color: #efefef;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
@@ -28,15 +28,20 @@ body {
 
 .App {
   width: 100%;
-  max-width: 800px;
+  max-width: 500px;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items:center;
   border: 1px solid #333;
   box-shadow: 0px 0px 15px gray;
+  margin: auto;
 }
+
+/*Up to here - CSS for lesson 7 */
+
+/*Legacy material*/
 
 .Header, .Footer {
   width: 100%;

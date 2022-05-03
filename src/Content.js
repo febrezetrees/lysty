@@ -11,7 +11,7 @@ const Content = () => {
         },
         {
             id: 2,
-            checked: false,
+            checked: true,
             item: "Item 2"
         },
         {

@@ -8,6 +8,7 @@ import apiRequest from './apiRequest';
 
 function App() {
   const API_URL = 'http://localhost:3500/items'; //API - sets the pathway as well, e.g. 'items'
+  //const API_URL = http://localhost:3500/items';
 
   const [items, setItems] = useState([]); // source of state - the initial state we want to load with - with the intiial load via useEffect.
   const [newItem, setNewItem] = useState('');
